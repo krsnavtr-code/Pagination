@@ -1,0 +1,58 @@
+/* Pagination Container */
+.paginationContainer {
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th {
+  border: 1px solid #009879;
+}
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  color: white;
+  background-color: #009879;
+}
+
+/* Pagination Controls */
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.paginationControls button,
+.paginationControls span {
+  padding: 8px 16px;
+  border: none;
+  background-color: #009879;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.paginationControls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Page Indicator */
+.pageIndicator {
+  font-size: 14px;
+}
